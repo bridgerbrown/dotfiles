@@ -6,8 +6,8 @@
 
 theme = detuned
 font-size = 13
-font-family = "JetBrains Mono NL"
-window-title-font-family = "JetBrains Mono NL"
+font-family = "JetBrainsMonoNL Nerd Font Mono"
+window-title-font-family = "JetBrainsMonoNL Nerd Font Mono"
 shell-integration-features = no-cursor, sudo, no-title
 #adjust-cell-height = 8%
 mouse-scroll-multiplier = 2
