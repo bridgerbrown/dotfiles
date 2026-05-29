@@ -1,34 +1,32 @@
-# ZSH Configuration 
-My personal ZSH config setup for linking .zshrc file to version controlled .zshrc.
+# Dotfiles
+
+My dotfiles for symlinking to version controlled files for:
+- `.zshrc`
+- Ghostty terminal config
 
 ## Setup Instructions
 
 ### 1. Clone the Repository
 
-### 2. Create Symbolic Link
-
-First, check if you already have a .zshrc file:
-
 ```zsh
-ls -la ~/.zshrc
+git clone https://github.com/bridgerbrown/dotfiles.git ~/.dotfiles
 ```
 
-#### If you already have a .zshrc:
-```zsh
-# Backup your existing .zshrc
-mv ~/.zshrc ~/.zshrc.backup
+### 2. Create Symbolic Links
 
-# Create symbolic link
-ln -s ~/dev/zsh-config/.zshrc ~/.zshrc
+#### .zshrc
+
+```zsh
+ln -s ~/.dotfiles/.zshrc ~/.zshrc
 ```
 
-#### If you don't have a .zshrc:
+#### Ghostty Config
+
 ```zsh
-# Simply create the symbolic link
-ln -s ~/dev/zsh-config/.zshrc ~/.zshrc
+ln -s ~/.dotfiles/config.ghostty ~/Library/Application\ Support/com.mitchellh.ghostty/config
 ```
 
-### 3. Source file
+### 3. Source Files
 
 ```zsh
 source ~/.zshrc
@@ -36,4 +34,4 @@ source ~/.zshrc
 
 ## Making Changes
 
-You can now edit either `~/.zshrc` or `~/dev/zsh-config/.zshrc`.
+Edit files directly in `~/.dotfiles/` and changes will be reflected immediately via the symlinks.
