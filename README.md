@@ -1,7 +1,8 @@
 # Dotfiles
 
 My dotfiles for symlinking to version controlled files for:
-- `.zshrc`
+- `.zshrc` shell config
+- `.p10k.zsh` shell theme config 
 - Ghostty terminal config
 
 ## Setup Instructions
@@ -18,6 +19,12 @@ git clone https://github.com/bridgerbrown/dotfiles.git ~/.dotfiles
 
 ```zsh
 ln -s ~/.dotfiles/.zshrc ~/.zshrc
+```
+
+#### .p10k.zsh
+
+```zsh
+ln -s ~/.dotfiles/.p10k.zsh ~/.p10k.zsh
 ```
 
 #### Ghostty Config
