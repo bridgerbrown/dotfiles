@@ -1,0 +1,21 @@
+# This is the configuration file for Ghostty.
+#   /Users/bridgerb/Library/Application\ Support/com.mitchellh.ghostty/config
+
+# Run `ghostty +show-config --default --docs` to view a list of
+# all available config options and their default values.
+
+theme = detuned
+font-size = 13
+font-family = "JetBrains Mono NL"
+window-title-font-family = "JetBrains Mono NL"
+shell-integration-features = no-cursor, sudo, no-title
+#adjust-cell-height = 8%
+mouse-scroll-multiplier = 2
+window-padding-balance = true
+window-save-state = always
+macos-titlebar-style = tabs
+window-colorspace = "display-p3"
+macos-option-as-alt = true
+macos-window-shadow = false
+macos-auto-secure-input = false
+window-padding-color = extend
